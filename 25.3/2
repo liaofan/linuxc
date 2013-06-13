@@ -1,0 +1,30 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  t1.c
+ *
+ *    Description:  
+ *
+ *        Version:  1.0
+ *        Created:  04/01/2013 06:37:35 PM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Fan Liao (), liaofan8@gmail.com
+ *   Organization:  BST
+ *
+ * =====================================================================================
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(void)
+{
+	int d=atoi("014a");
+	printf("%d\n",d);
+	long int t=strtol("0xa",NULL,8);
+	printf("%ld\n",t);
+	return 0;
+}
+
